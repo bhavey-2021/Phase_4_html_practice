@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<style>
+table,td,th{border:2px solid red;}
+</style>
+<title>Form_intro</title>
+</head>
+<body>
+<nav>
+<a href="HomePage_CreateANAVBar.html">Home</a><br>
+<a href="Portfolio_CreateANAVBar.html">Portfolio</a><br>
+<a href="About_CreateANAVBar.html">About</a><br>
+<a href="Contact_CreateANAVBar.html">Contact</a><br>
+<a href="https://www.linkedin.com/in/bhavey-malhotra-5a43a3144" target="_blank">Linkedin</a><br>
+<!-- target="_blank" makes it go to open a new page --> 
+</nav>
+<form>
+Username:<input type="text" name="username" value="bhavey"><!-- expecting text i/p --><br>
+<!-- we can preset the value sby using 'value' -->
+Password:<input type="password" name="password"><!-- expecting pwd i/p --><br>
+<h6>Gender:</h6><br>
+Male<input type="radio" name="gender" value="male"><br>
+Female<input type="radio" name="gender" value="female"><br>
+Other<input type="radio" name="gender" value="other"><br>
+<!-- above lines represent radio button to select only 1 value from the choices -->
+Do you agree T&C<input type="checkbox" name="TC" value="yes"><br>
+<!-- added chackbox above -->
+<input type="submit" value="login">
+</form>
+</body>
+</html>
